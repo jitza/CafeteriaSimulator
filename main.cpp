@@ -52,7 +52,7 @@ int main()
 
     fstream inFile("Students.txt", ios::in);
     if(!inFile) {
-        cout<<"Could not open file."<<endl;
+        cout<<"Could not open the file."<<endl;
         exit(0);
     }
     else
